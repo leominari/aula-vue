@@ -37,7 +37,7 @@ export default {
     ...mapActions(["action_getPessoas", "action_selectPessoa"]),
     editarPessoa(pessoa) {
       this.action_selectPessoa(pessoa);
-      this.$router.push({ name: "CadastroPessoa" });
+      this.$router.push({ name: "EditarPessoa" });
       console.log("editar", pessoa);
     },
     removerPessoa(pessoa) {

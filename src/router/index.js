@@ -28,6 +28,11 @@ const routes = [
         name: 'CadastroPessoa',
         component: CadastroPessoa,
       },
+      {
+        path: '/pessoa/editar',
+        name: 'EditarPessoa',
+        component: CadastroPessoa,
+      },
       // {
       //   path: '/',
       //   name: 'CadastroPessoa',
